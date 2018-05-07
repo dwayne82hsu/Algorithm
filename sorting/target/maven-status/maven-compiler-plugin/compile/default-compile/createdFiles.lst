@@ -1,0 +1,5 @@
+base\BaseSorting.class
+bubble\BubbleSorting.class
+base\ISorting.class
+insert\InsertSorting.class
+select\SelectSorting.class
