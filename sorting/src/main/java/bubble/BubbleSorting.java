@@ -34,8 +34,8 @@ public class BubbleSorting extends BaseSorting implements ISorting {
                 lastPosition = flag;
                 flag = 0;
                 for (i = 1; i < lastPosition; i++) {
-                    if (data[i] < data[i - 1]) {
-                        swap3(data , i - 1, i);
+                    if (data[i - 1] > data[i]) {
+                        swap3(data, i - 1, i);
                         flag = i;
                     }
                 }
