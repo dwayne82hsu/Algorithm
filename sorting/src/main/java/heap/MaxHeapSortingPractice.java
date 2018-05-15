@@ -11,18 +11,18 @@ public class MaxHeapSortingPractice extends BaseSorting implements ISorting {
 			buildMaxHeap(data);
 			for (int i = data.length - 1; i > 1; i--) {
 				swap3(data, 0, i);
-				adjustBottom2Top(data, 0, i);
+				adjustHeap(data, 0, i);
 			}
 		}
 	}
 
 	private void buildMaxHeap(int[] data) {
 		for (int i = (data.length -2) / 2; i >= 0; i--) {
-			adjustBottom2Top(data, i, data.length);
+			adjustHeap(data, i, data.length);
 		}
 	}
 
-	private void adjustBottom2Top(int[] data, int root, int length) {
+	private void adjustHeap(int[] data, int root, int length) {
 		int target = data[root];
 		for (int i = 2 * root + 1; i < length - 1; i = 2 * i + 1) {
 			if (data[i] < data[i + 1]) {
