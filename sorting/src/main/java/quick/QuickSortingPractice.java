@@ -20,6 +20,7 @@ public class QuickSortingPractice extends BaseSorting implements ISorting {
 		int i = l;
 		int j = r;
 		int pivot = data[i];
+
 		while (i < j) {
 			while (i < j && data[j] >= pivot) {
 				j--;
@@ -34,11 +35,11 @@ public class QuickSortingPractice extends BaseSorting implements ISorting {
 			if (i < j) {
 				data[j--] = data[i];
 			}
-		}
 
-		data[i] = pivot;
-		quickSort(data, l, i - 1);
-		quickSort(data, i + 1, r);
+			data[i] = pivot;
+			quickSort(data, l, i - 1);
+			quickSort(data, i + 1, r);
+		}
 	}
 
 }
