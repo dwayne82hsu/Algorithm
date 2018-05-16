@@ -17,4 +17,15 @@ public class ShellSortingTest {
 		ShellSorting.print(data);
 	}
 
+	@Test
+	public void sortPractice() {
+		int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23 };
+		System.out.println("ShellSorting");
+		System.out.println("Before Sorting");
+		ShellSorting.print(data);
+		new ShellSorting().sortPractice(data);
+		System.out.println("After Sorting");
+		ShellSorting.print(data);
+	}
+
 }

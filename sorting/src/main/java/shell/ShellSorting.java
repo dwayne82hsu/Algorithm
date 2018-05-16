@@ -13,14 +13,34 @@ public class ShellSorting extends BaseSorting implements ISorting {
 			for (int step = data.length / 2; step > 0; step /= 2) {
 				for (int i = step; i < data.length; i++) {
 					target = data[i];
-					for (currentPosition = i - step; currentPosition >= 0; currentPosition -= step) {
-						if (data[currentPosition] > target) {
-							data[currentPosition + step] = data[currentPosition];
-						} else {
-							break;
-						}
+					currentPosition = i;
+
+					while(currentPosition - step >= 0 && data[currentPosition - step] > target) {
+						data[currentPosition] = data[currentPosition - step];
+						currentPosition-=step;
 					}
-					data[currentPosition + step] = target;
+
+					data[currentPosition] = target;
+				}
+			}
+		}
+	}
+
+	public void sortPractice(int[] data) {
+		if (data != null && data.length > 1) {
+			int currentPosition = 0;
+			int target = 0;
+
+			for (int step = data.length / 2; step > 0; step /= 2) {
+				for (int i = step; i < data.length; i++) {
+					target = data[i];
+					currentPosition = i;
+					while (currentPosition - step >= 0 && data[currentPosition - step] > target) {
+						data[currentPosition] = data[currentPosition - step];
+						currentPosition -= step;
+					}
+
+					data[currentPosition] = target;
 				}
 			}
 		}
