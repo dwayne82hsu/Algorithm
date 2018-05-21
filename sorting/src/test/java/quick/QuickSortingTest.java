@@ -8,7 +8,7 @@ public class QuickSortingTest {
 
 	@Test
 	public void sort() {
-		int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23 };
+		int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23, 32 };
 		System.out.println("MergeSorting");
 		System.out.println("Before Sorting");
 		QuickSorting.print(data);

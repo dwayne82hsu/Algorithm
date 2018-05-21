@@ -43,8 +43,8 @@ public class MergeSorting extends BaseSorting implements ISorting {
 			temp[k++] = data[j++];
 		}
 		// 把新数组中的数覆盖nums数组
-		for (int index = 0; index < temp.length; index++) {
-			data[index + l] = temp[index];
+		for (i = 0; i < temp.length; i++) {
+			data[i + l] = temp[i];
 		}
 	}
 

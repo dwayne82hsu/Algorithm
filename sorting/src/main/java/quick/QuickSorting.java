@@ -12,14 +12,14 @@ public class QuickSorting extends BaseSorting implements ISorting {
 		}
 	}
 
-	private void quickSort(int[] data, int l, int r) {
-		if (l > r) {
+	private void quickSort(int[] data, int l, int h) {
+		if (l > h) {
 			return;
 		}
 
 		int pivot = data[l];
 		int i = l;
-		int j = r;
+		int j = h;
 
 		while (i < j) {
 			while (pivot <= data[j] && i < j) {
@@ -39,7 +39,7 @@ public class QuickSorting extends BaseSorting implements ISorting {
 			data[i] = pivot;
 
 			quickSort(data, l, i - 1);
-			quickSort(data, i + 1, r);
+			quickSort(data, i + 1, h);
 		}
 	}
 
