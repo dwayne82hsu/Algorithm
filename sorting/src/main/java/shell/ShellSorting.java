@@ -8,17 +8,17 @@ public class ShellSorting extends BaseSorting implements ISorting {
 	@Override
 	public void sort(int[] data) {
 		if (data != null && data.length > 1) {
-			int currentPostion = 0;
+			int currentPosition = 0;
 			int target = 0;
 			for (int step = data.length / 2; step > 0; step /= 2) {
 				for (int i = step; i < data.length; i++) {
-					currentPostion = i;
+					currentPosition = i;
 					target = data[i];
-					while (currentPostion >= step && data[currentPostion - step] > data[currentPostion]) {
-						data[currentPostion] = data[currentPostion - step];
-						currentPostion -= step;
+					while (currentPosition >= step && data[currentPosition - step] > target) {
+						data[currentPosition] = data[currentPosition - step];
+						currentPosition -= step;
 					}
-					data[currentPostion] = target;
+					data[currentPosition] = target;
 				}
 			}
 		}
@@ -26,17 +26,17 @@ public class ShellSorting extends BaseSorting implements ISorting {
 
 	public void sortPractice(int[] data) {
 		if (data != null && data.length > 1) {
-			int currentPostion = 0;
+			int currentPosition = 0;
 			int target = 0;
 			for (int step = data.length / 2; step > 0; step /= 2) {
 				for (int i = step; i < data.length; i++) {
-					currentPostion = i;
-					target = data[i];
-					while (currentPostion >= step && data[currentPostion - step] > data[currentPostion]) {
-						data[currentPostion] = data[currentPostion - step];
-						currentPostion -= step;
+					currentPosition = i;
+					target = data[currentPosition];
+					while (currentPosition >= step && data[currentPosition - step] > target) {
+						data[currentPosition] = data[currentPosition - step];
+						currentPosition -= step;
 					}
-					data[currentPostion] = target;
+					data[currentPosition] = target;
 				}
 			}
 		}

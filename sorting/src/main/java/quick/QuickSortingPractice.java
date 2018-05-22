@@ -13,30 +13,28 @@ public class QuickSortingPractice extends BaseSorting implements ISorting {
 	}
 
 	private void quickSort(int[] data, int l, int h) {
-		if(l > h) {
-			return;
+		if (l < h) {
+			int m = getMiddle(data, l, h);
+			quickSort(data, l, m - 1);
+			quickSort(data, m + 1, h);
 		}
-		int i = l;
-		int j = h;
-		int pivot = data[i];
-		while (l < h) {
-			while (l < h && data[j] >= pivot) {
-				j--;
-			}
-			if (i < j) {
-				data[i++] = data[j];
-			}
+	}
 
-			while (l < h && data[i] <= pivot) {
-				i++;
+	private int getMiddle(int[] data, int l, int h) {
+		int pivot = data[l];
+		while (l < h) {
+			while (l < h && data[h] >= pivot) {
+				h--;
 			}
-			if (i < j) {
-				data[j--] = data[i];
+			data[l] = data[h];
+
+			while (l < h && data[l] <= pivot) {
+				l++;
 			}
+			data[h] = data[l];
 		}
-		data[i] = pivot;
-		quickSort(data, l, i - 1);
-		quickSort(data, i + 1, h);
+		data[l] = pivot;
+		return l;
 	}
 
 }

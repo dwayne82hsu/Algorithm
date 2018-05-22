@@ -11,9 +11,9 @@ public class RadixSorting extends BaseSorting implements ISorting {
 	public void sort(int[] data) {
 		// 首先确定排序的趟数;
 		int max = data[0];
-		for (int i = 1; i < data.length; i++) {
-			if (data[i] > max) {
-				max = data[i];
+		for (int aData : data) {
+			if (aData > max) {
+				max = aData;
 			}
 		}
 		int time = 0;

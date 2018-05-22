@@ -8,7 +8,7 @@ public class InsertSortingTest {
 
     @Test
     public void sort() {
-        int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23 };
+        int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23, 32 };
         System.out.println("InsertSorting");
         System.out.println("Before Sorting");
         InsertSorting.print(data);
@@ -19,7 +19,7 @@ public class InsertSortingTest {
 
     @Test
     public void sortPractice() {
-        int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23 };
+        int[] data = new int[] { 34, 44, 12, 67, 77, 91, 32, 23, 32 };
         System.out.println("InsertSorting");
         System.out.println("Before Sorting");
         InsertSorting.print(data);

@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f44c0e-e6c9-40d1-8c70-f469095430c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/src/test/java/radix/RadixSortingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/main/java/shell/ShellSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/main/java/shell/ShellSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingPracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingPracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingPracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingPracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/bubble/BubbleSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/bubble/BubbleSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/src/test/java/shell/ShellSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/test/java/shell/ShellSortingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sorting/target/" />
@@ -29,20 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShellSorting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sorting/src/main/java/shell/ShellSorting.java">
+      <file leaf-file-name="RadixSortingTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting/src/test/java/radix/RadixSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="346">
+              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShellSortingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorting/src/test/java/shell/ShellSortingTest.java">
+      <file leaf-file-name="RadixSorting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="702">
+              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -60,9 +59,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mid</find>
+      <find>increment</find>
+      <find>j</find>
+      <find>high</find>
+      <find>tmp</find>
+      <find>list</find>
     </findStrings>
     <replaceStrings>
       <replace>m</replace>
+      <replace>step</replace>
+      <replace>currentPosition</replace>
+      <replace>h</replace>
+      <replace>pivot</replace>
+      <replace>data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,27 +88,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java" />
         <option value="$PROJECT_DIR$/sorting/pom.xml" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSorting.java" />
         <option value="$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSorting.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingTest.java" />
-        <option value="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java" />
-        <option value="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingPracticeTest.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingPracticeTest.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingTest.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/radix/RadixSortingTest.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java" />
-        <option value="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java" />
+        <option value="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java" />
         <option value="$PROJECT_DIR$/sorting/src/test/java/shell/ShellSortingTest.java" />
+        <option value="$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java" />
+        <option value="$PROJECT_DIR$/sorting/src/test/java/bubble/BubbleSortingTest.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java" />
+        <option value="$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java" />
         <option value="$PROJECT_DIR$/sorting/src/main/java/shell/ShellSorting.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java" />
+        <option value="$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java" />
       </list>
     </option>
   </component>
@@ -139,7 +149,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
@@ -152,6 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,85 +177,10 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="sorting" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="radix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,57 +234,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxHeapSortingPracticeTest.sort">
+  <component name="RunManager" selected="JUnit.RadixSortingTest.sortPractice">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MaxHeapSortingPracticeTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sorting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="heap" />
-      <option name="MAIN_CLASS_NAME" value="heap.MaxHeapSortingPracticeTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MaxHeapSortingTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sorting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="heap" />
-      <option name="MAIN_CLASS_NAME" value="heap.MaxHeapSortingTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MergeSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortingPracticeTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sorting" />
       <extension name="coverage">
         <pattern>
@@ -357,9 +249,55 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="merge" />
-      <option name="MAIN_CLASS_NAME" value="merge.MergeSortingTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="merge.MergeSortingPracticeTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="QuickSortingPracticeTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="quick" />
+      <option name="MAIN_CLASS_NAME" value="quick.QuickSortingPracticeTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="QuickSortingTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quick.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="quick" />
+      <option name="MAIN_CLASS_NAME" value="quick.QuickSortingTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -454,19 +392,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaxHeapSortingPracticeTest.sort" />
-      <item itemvalue="JUnit.MergeSortingTest" />
-      <item itemvalue="JUnit.MaxHeapSortingTest.sort" />
-      <item itemvalue="JUnit.RadixSortingTest.sortPractice" />
+      <item itemvalue="JUnit.MergeSortingPracticeTest.sort" />
+      <item itemvalue="JUnit.QuickSortingPracticeTest.sort" />
+      <item itemvalue="JUnit.QuickSortingTest.sort" />
       <item itemvalue="JUnit.ShellSortingTest.sortPractice" />
+      <item itemvalue="JUnit.RadixSortingTest.sortPractice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MaxHeapSortingPracticeTest.sort" />
-        <item itemvalue="JUnit.ShellSortingTest.sortPractice" />
-        <item itemvalue="JUnit.MaxHeapSortingTest.sort" />
         <item itemvalue="JUnit.RadixSortingTest.sortPractice" />
-        <item itemvalue="JUnit.MergeSortingTest" />
+        <item itemvalue="JUnit.MergeSortingPracticeTest.sort" />
+        <item itemvalue="JUnit.QuickSortingPracticeTest.sort" />
+        <item itemvalue="JUnit.ShellSortingTest.sortPractice" />
+        <item itemvalue="JUnit.QuickSortingTest.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -498,44 +436,49 @@
       <workItem from="1526604813601" duration="597000" />
       <workItem from="1526633539801" duration="1098000" />
       <workItem from="1526635422613" duration="2207000" />
-      <workItem from="1526873783635" duration="385000" />
+      <workItem from="1526873783635" duration="1453000" />
+      <workItem from="1526882106186" duration="2948000" />
+      <workItem from="1526886971835" duration="1333000" />
+      <workItem from="1526951079435" duration="704000" />
+      <workItem from="1526953222520" duration="995000" />
+      <workItem from="1526954911895" duration="3193000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortingTest - 2018.05.18 at 17h 41m 12s.xml">
-      <configuration name="MergeSortingTest" configurationId="JUnit" />
+    <history-entry file="QuickSortingPracticeTest_sort - 2018.05.22 at 10h 16m 19s.xml">
+      <configuration name="QuickSortingPracticeTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxHeapSortingPracticeTest_sort - 2018.05.18 at 17h 42m 32s.xml">
-      <configuration name="MaxHeapSortingPracticeTest.sort" configurationId="JUnit" />
+    <history-entry file="QuickSortingTest_sort - 2018.05.22 at 10h 16m 41s.xml">
+      <configuration name="QuickSortingTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxHeapSortingPracticeTest_sort - 2018.05.18 at 17h 42m 43s.xml">
-      <configuration name="MaxHeapSortingPracticeTest.sort" configurationId="JUnit" />
+    <history-entry file="QuickSortingTest_sort - 2018.05.22 at 10h 20m 05s.xml">
+      <configuration name="QuickSortingTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxHeapSortingTest_sort - 2018.05.18 at 17h 42m 58s.xml">
-      <configuration name="MaxHeapSortingTest.sort" configurationId="JUnit" />
+    <history-entry file="QuickSortingTest_sort - 2018.05.22 at 10h 23m 41s.xml">
+      <configuration name="QuickSortingTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RadixSortingTest_sortPractice - 2018.05.18 at 17h 53m 18s.xml">
+    <history-entry file="QuickSortingPracticeTest_sort - 2018.05.22 at 10h 31m 44s.xml">
+      <configuration name="QuickSortingPracticeTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortingPracticeTest_sort - 2018.05.22 at 10h 32m 09s.xml">
+      <configuration name="QuickSortingPracticeTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSortingTest_sortPractice - 2018.05.22 at 10h 34m 20s.xml">
+      <configuration name="ShellSortingTest.sortPractice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuickSortingPracticeTest_sort - 2018.05.22 at 10h 36m 26s.xml">
+      <configuration name="QuickSortingPracticeTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MergeSortingPracticeTest_sort - 2018.05.22 at 10h 40m 03s.xml">
+      <configuration name="MergeSortingPracticeTest.sort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RadixSortingTest_sortPractice - 2018.05.22 at 10h 40m 36s.xml">
       <configuration name="RadixSortingTest.sortPractice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapSortingPracticeTest_sort - 2018.05.18 at 17h 55m 59s.xml">
-      <configuration name="MaxHeapSortingPracticeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapSortingPracticeTest_sort - 2018.05.18 at 17h 56m 34s.xml">
-      <configuration name="MaxHeapSortingPracticeTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxHeapSortingTest_sort - 2018.05.18 at 17h 57m 39s.xml">
-      <configuration name="MaxHeapSortingTest.sort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShellSortingTest_sortPractice - 2018.05.21 at 11h 42m 24s.xml">
-      <configuration name="ShellSortingTest.sortPractice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShellSortingTest_sortPractice - 2018.05.21 at 11h 42m 52s.xml">
-      <configuration name="ShellSortingTest.sortPractice" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35453000" />
+    <option name="totallyTimeSpent" value="45694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -551,11 +494,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38693467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4036851" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30862328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -572,27 +515,27 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41708544" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41708544" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3290461" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -609,12 +552,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java" />
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java" />
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sorting/pom.xml" />
     <entry file="file://$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java" />
     <entry file="file://$PROJECT_DIR$/sorting/src/test/java/base/BaseSortingTest.java" />
@@ -732,104 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/bubble/BubbleSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="18" selection-start-line="8" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/DevSoftware/Java/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="446" column="13" selection-start-line="446" selection-start-column="13" selection-end-line="446" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingPracticeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/radix/RadixSortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="37" column="28" selection-start-line="27" selection-start-column="12" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -840,34 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingPracticeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -875,17 +701,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/base/BaseSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/insert/InsertSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/bubble/BubbleSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="37" column="28" selection-start-line="27" selection-start-column="12" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/bubble/BubbleSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/heap/MaxHeapSortingPracticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/heap/MaxHeapSortingPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/insert/InsertSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/quick/QuickSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sorting/src/test/java/shell/ShellSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="101">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorting/src/main/java/shell/ShellSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="267">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/quick/QuickSortingPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/quick/QuickSortingPracticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/merge/MergeSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/merge/MergeSortingPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/merge/MergeSortingPracticeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/main/java/radix/RadixSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorting/src/test/java/radix/RadixSortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
