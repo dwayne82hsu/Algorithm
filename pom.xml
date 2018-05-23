@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sorting</module>
+        <module>finding</module>
+        <module>stackandqueue</module>
     </modules>
 
 

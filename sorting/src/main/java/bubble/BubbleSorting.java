@@ -27,14 +27,15 @@ public class BubbleSorting extends BaseSorting implements ISorting {
 
     public void sortPractice(int[] data) {
         if (data != null && data.length > 1) {
-            int i, lastPosition;
-            int flag = data.length;
+            int i = 0, lastPostion = 0, flag = data.length;
+
             while (flag > 0) {
-                lastPosition = flag;
+                lastPostion = flag;
                 flag = 0;
-                for (i = 1; i < lastPosition; i++) {
+                for (i = 1; i < lastPostion; i++) {
                     if (data[i - 1] > data[i]) {
                         swap3(data, i - 1, i);
+
                         flag = i;
                     }
                 }

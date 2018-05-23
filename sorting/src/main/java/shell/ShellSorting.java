@@ -26,12 +26,11 @@ public class ShellSorting extends BaseSorting implements ISorting {
 
 	public void sortPractice(int[] data) {
 		if (data != null && data.length > 1) {
-			int currentPosition = 0;
-			int target = 0;
+			int currentPosition = 0, target = 0;
 			for (int step = data.length / 2; step > 0; step /= 2) {
 				for (int i = step; i < data.length; i++) {
 					currentPosition = i;
-					target = data[currentPosition];
+					target = data[i];
 					while (currentPosition >= step && data[currentPosition - step] > target) {
 						data[currentPosition] = data[currentPosition - step];
 						currentPosition -= step;

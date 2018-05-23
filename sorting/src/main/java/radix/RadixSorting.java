@@ -3,6 +3,7 @@ package radix;
 import base.BaseSorting;
 import base.ISorting;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class RadixSorting extends BaseSorting implements ISorting {
@@ -56,45 +57,44 @@ public class RadixSorting extends BaseSorting implements ISorting {
 	}
 
 	public void sortPractice(int[] data) {
-		int max = Integer.MIN_VALUE;
-
-		for (int aData : data) {
-			if (aData > max) {
-				max = aData;
-			}
-		}
-
-		int time = 0;
-		while (max > 0) {
-			max /= 10;
-			time++;
-		}
-
-		ArrayList<ArrayList<Integer>> queues = new ArrayList<>();
-		for (int i = 0; i < 10; i++) {
-			ArrayList<Integer> queue = new ArrayList<>();
-			queues.add(queue);
-		}
-
-		for (int i = 0; i < time; i++) {
+		if (data != null && data.length > 1) {
+			int max = data[0];
 			for (int aData : data) {
-				int x = aData % (int) Math.pow(10, i + 1) / (int) Math.pow(10, i);
-				ArrayList<Integer> queue = queues.get(x);
-				queue.add(aData);
-				queues.set(x, queue);
+				if (aData > max) {
+					max = aData;
+				}
 			}
 
-			int count = 0; // 元素计数器;
-			// 收集队列元素;
-			for (int k = 0; k < 10; k++) {
-				while (queues.get(k).size() > 0) {
-					ArrayList<Integer> queue = queues.get(k);
-					data[count++] = queue.get(0);
-					queue.remove(0);
+			int time = 0;
+			while (max > 0) {
+				max /= 10;
+				time++;
+			}
+
+			ArrayList<ArrayList<Integer>> queues = new ArrayList<>();
+			for (int i = 0; i < 10; i++) {
+				ArrayList<Integer> queue = new ArrayList<>();
+				queues.add(queue);
+			}
+
+			for (int i = 0; i < time; i++) {
+				for (int aData : data) {
+					int x = aData % (int) Math.pow(10, i + 1) / (int) Math.pow(10, i);
+					ArrayList<Integer> queue = queues.get(x);
+					queue.add(aData);
+					queues.set(x, queue);
+				}
+
+				int count = 0;
+				for (int j = 0; j < 10; j++) {
+					while (queues.get(j).size() > 0) {
+						ArrayList<Integer> queue = queues.get(j);
+						data[count++] = queue.get(0);
+						queue.remove(0);
+					}
 				}
 			}
 		}
-
 	}
 
 }
