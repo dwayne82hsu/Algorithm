@@ -12,6 +12,7 @@
         <module>sorting</module>
         <module>finding</module>
         <module>stackandqueue</module>
+        <module>binarytree</module>
     </modules>
 
 
