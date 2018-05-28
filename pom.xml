@@ -13,6 +13,7 @@
         <module>finding</module>
         <module>stackandqueue</module>
         <module>binarytree</module>
+        <module>leetcode</module>
     </modules>
 
 

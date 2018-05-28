@@ -26,13 +26,14 @@ public class InsertSorting extends BaseSorting implements ISorting {
             int currentPosition = 0, target = 0;
             for (int i = 1; i < data.length; i++) {
                 currentPosition = i;
-                target = data[i];
+                target = data[currentPosition];
+
                 while (currentPosition > 0 && data[currentPosition - 1] > target) {
                     data[currentPosition] = data[currentPosition - 1];
                     currentPosition--;
                 }
-                data[currentPosition] = target;
 
+                data[currentPosition] = target;
             }
         }
     }

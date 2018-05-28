@@ -1,27 +1,28 @@
 package reversestack;
 
-import java.util.Deque;
 import java.util.Stack;
 
-public class ReverStack {
+public class ReverStackPractice {
 
-	private static int getAndRemoveLastElement(Deque<Integer> stack) {
+	private static int getAndRemoveLastElement(Stack<Integer> stack) {
 		int result = stack.pop();
-		if (stack.isEmpty()) {
+		if (stack.empty()) {
 			return result;
 		} else {
 			int last = getAndRemoveLastElement(stack);
 			stack.push(result);
+
 			return last;
 		}
 	}
 
-	public static void reverse(Deque<Integer> stack) throws Exception {
+	public static void reverse(Stack<Integer> stack) throws Exception {
 		if (stack == null) {
 			throw new Exception("Your Stack is Empty!");
-		} else if (stack.isEmpty()) {
+		} else if (stack.empty()) {
 			return;
 		}
+
 		int last = getAndRemoveLastElement(stack);
 		reverse(stack);
 		stack.push(last);

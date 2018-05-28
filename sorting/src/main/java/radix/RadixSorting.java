@@ -61,14 +61,13 @@ public class RadixSorting extends BaseSorting implements ISorting {
 			int max = data[0];
 			for (int aData : data) {
 				if (aData > max) {
-					max = aData;
-				}
+					max = aData;				}
 			}
 
 			int time = 0;
 			while (max > 0) {
 				max /= 10;
-				time++;
+				time ++;
 			}
 
 			ArrayList<ArrayList<Integer>> queues = new ArrayList<>();

@@ -8,12 +8,7 @@ import static org.junit.Assert.*;
 public class SerializableBinaryTreeTest {
 
 	@Test
-	public void tree2Str() {
-	}
-
-	@Test
-	public void str2Tree() {
-
+	public void testTree() {
 		String treeStr = "1!2!4!8!#!#!9!#!#!5!10!#!#!#!3!6!#!#!7!#!#!";
 
 		SerializableBinaryTree sbt = new SerializableBinaryTree();

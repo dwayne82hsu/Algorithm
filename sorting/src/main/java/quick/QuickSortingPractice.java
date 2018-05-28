@@ -33,9 +33,7 @@ public class QuickSortingPractice extends BaseSorting implements ISorting {
 			}
 			data[h] = data[l];
 		}
-
 		data[l] = pivot;
-
 		return l;
 	}
 

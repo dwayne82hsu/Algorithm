@@ -31,7 +31,9 @@ public class SerializableBinaryTree {
 
 	public TreeNode str2Tree(String str) {
 		//特殊输入
-		if (str == null || str.length() <= 0) return null;
+		if (str == null || str.length() < 1) {
+			return null;
+		}
 		//将字符串按照","拆分为数组
 		String[] strs = str.split("!");
 		//调用递归方法deSerializeCore()方法来实现重建二叉树的功能,返回根结点
@@ -52,16 +54,16 @@ public class SerializableBinaryTree {
 			return null;
 		} else {
 			//如果不为空结点，则先恢复这个结点
-			TreeNode newNode = new TreeNode(0);
-			newNode.value = Integer.parseInt(strs[index]);
+			TreeNode node = new TreeNode();
+			node.value = strs[index];
 			//千万注意在递归调用之前(使用了一个元素建立结点之后)，要将index向后移动1位
 			index++;
 			//恢复左子树
-			newNode.left = this.deSerializeCore(strs);
+			node.left = this.deSerializeCore(strs);
 			//恢复右子树
-			newNode.right = this.deSerializeCore(strs);
+			node.right = this.deSerializeCore(strs);
 			//建立二叉树完成，返回根结点
-			return newNode;
+			return node;
 		}
 	}
 

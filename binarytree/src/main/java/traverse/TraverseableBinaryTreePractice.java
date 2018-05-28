@@ -2,9 +2,11 @@ package traverse;
 
 import base.TreeNode;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
 
-public class TraverseableBinaryTree {
+public class TraverseableBinaryTreePractice {
 
 	public static void preOrderRecur(TreeNode<String> root) {
 		if (root == null) {
@@ -12,9 +14,8 @@ public class TraverseableBinaryTree {
 		}
 
 		System.out.print(root.value + "\t");
-
-		preOrderRecur(root.left);
-		preOrderRecur(root.right);
+		preOrder(root.left);
+		preOrder(root.right);
 	}
 
 	public static void inOrderRecur(TreeNode<String> root) {
@@ -22,9 +23,9 @@ public class TraverseableBinaryTree {
 			return;
 		}
 
-		inOrderRecur(root.left);
+		preOrder(root.left);
 		System.out.print(root.value + "\t");
-		inOrderRecur(root.right);
+		preOrder(root.right);
 	}
 
 	public static void postOrderRecur(TreeNode<String> root) {
@@ -32,8 +33,8 @@ public class TraverseableBinaryTree {
 			return;
 		}
 
-		postOrderRecur(root.left);
-		postOrderRecur(root.right);
+		preOrder(root.left);
+		preOrder(root.right);
 		System.out.print(root.value + "\t");
 	}
 
@@ -49,13 +50,22 @@ public class TraverseableBinaryTree {
 			return;
 		}
 
-		Deque<TreeNode> stack = new ArrayDeque<>();
+		Deque<TreeNode<String>> stack = new ArrayDeque<>();
+
 		stack.push(root);
+
 		while (!stack.isEmpty()) {
 			TreeNode cur = stack.pop();
+
 			System.out.print(cur.value + "\t");
-			if (cur.right != null) stack.push(cur.right);
-			if (cur.left != null) stack.push(cur.left);
+
+			if (cur.right != null) {
+				stack.push(cur.right);
+			}
+
+			if (cur.left != null) {
+				stack.push(cur.left);
+			}
 		}
 	}
 
@@ -73,17 +83,18 @@ public class TraverseableBinaryTree {
 			return;
 		}
 
-		Deque<TreeNode> stack = new ArrayDeque<>();
+		Deque<TreeNode<String>> stack = new ArrayDeque<>();
 		TreeNode<String> cur = root;
 
 		while (!stack.isEmpty() || cur != null) {
-				while (cur != null) {
-				stack.push(cur);//先访问再入栈
+			while (cur != null) {
+				stack.push(cur);
 				cur = cur.left;
 			}
+
 			cur = stack.pop();
-			System.out.print(cur.value + "/t");
-			cur = cur.right;//如果是null，出栈并处理右子树
+			System.out.print(cur.value + "\t");
+			cur = cur.right;
 		}
 	}
 
@@ -95,8 +106,9 @@ public class TraverseableBinaryTree {
 		if (root == null) {
 			return;
 		}
-		Deque<TreeNode> s1 = new ArrayDeque<>();
-		Deque<TreeNode> s2 = new ArrayDeque<>();
+
+		Deque<TreeNode<String>> s1 = new ArrayDeque<>();
+		Deque<TreeNode<String>> s2 = new ArrayDeque<>();
 
 		s1.push(root);
 
@@ -126,15 +138,14 @@ public class TraverseableBinaryTree {
 			return;
 		}
 
-		Deque<TreeNode> stack = new ArrayDeque<>();
-		stack.push(root);
+		Deque<TreeNode<String>> stack = new ArrayDeque<>();
+		TreeNode<String> h = root, c = null;
 
-		TreeNode<String> h = root; // 代表最近一次弹出并打印的节点
-		TreeNode<String> c = null; // 代表当前栈顶节点
+		stack.push(root);
 
 		while (!stack.isEmpty()) {
 			c = stack.peek();
-			if (c.left != null && h != c.left && h != c.right) {
+			if (c.left != null && h.left != h.right) {
 				stack.push(c.left);
 			} else if (c.right != null && h != c.right) {
 				stack.push(c.right);
@@ -177,7 +188,6 @@ public class TraverseableBinaryTree {
 		TreeNode<String> last = root, nlast = root;
 
 		queue.add(root);
-
 		while (!queue.isEmpty()) {
 			TreeNode cur = queue.poll();
 			System.out.print(cur.value + "\t");
@@ -190,7 +200,6 @@ public class TraverseableBinaryTree {
 				queue.add(cur.right);
 				nlast = cur.right;
 			}
-
 			if (last == cur) {
 				System.out.println();
 				last = nlast;
